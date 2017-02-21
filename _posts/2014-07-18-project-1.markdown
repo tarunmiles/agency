@@ -12,6 +12,7 @@ category: Rstudio
 description: This template uses [Typicons][ty] web font, provided by [Fontello][fo] font bundling service. It allows you to quickly
 add nice icons into your pages by using css tags. 
 
+---
 To add an icon somewhere in the template simply do:
 
 {% highlight html %}
@@ -20,7 +21,6 @@ To add an icon somewhere in the template simply do:
 
 This will insert a home icon, just as the one seen in the sidebar. The available class names you can use are as follows:
 
----
 
 ![Available Icons][icons]
 
