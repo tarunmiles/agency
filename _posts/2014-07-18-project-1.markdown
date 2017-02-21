@@ -9,10 +9,13 @@ thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: April 2014
 category: Rstudio
-description: This template uses [Typicons][ty] web font, provided by [Fontello][fo] font bundling service. It allows you to quickly
+description: This template uses Typicons web font, provided by Fontello font bundling service. It allows you to quickly
+add nice icons into your pages by using css tags. 
+---
+
+This template uses [Typicons][ty] web font, provided by [Fontello][fo] font bundling service. It allows you to quickly
 add nice icons into your pages by using css tags. 
 
----
 To add an icon somewhere in the template simply do:
 
 {% highlight html %}
