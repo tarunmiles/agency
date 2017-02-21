@@ -13,45 +13,24 @@ description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At du
 
 ---
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This template uses [Typicons][ty] web font, provided by [Fontello][fo] font bundling service. It allows you to quickly
+add nice icons into your pages by using css tags. 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+To add an icon somewhere in the template simply do:
+
+{% highlight html %}
+<i class="icon-home"></i>
+{% endhighlight %}
+
+This will insert a home icon, just as the one seen in the sidebar. The available class names you can use are as follows:
+
+![Available Icons][icons]
+
+These should work in all the browsers, all the way down to and including IE7, but not IE6.
 
 
-```r
-source("Yahoo Stock Data Pull.R")
- 
-MSFT <-  GetYahooData("MSFT")
-```
 
-```
-## [1] "Data pull successful..."
-```
+[ty]: http://typicons.com/
+[fo]: http://fontello.com/
 
-```r
-INTC <- GetYahooData("INTC")
-```
-
-```
-## [1] "Data pull successful..."
-```
-
-```r
-IBM <- GetYahooData("IBM")
-```
-
-```
-## [1] "Data pull successful..."
-```
-
-```r
-AAPL <- GetYahooData("AAPL")
-```
-
-```
-## [1] "Data pull successful..."
-```
-
-```r
-mat <-  data.frame(Date = MSFT$Date, 
-                   MSFT = round(MSFT$
+[icons]: /img/icons.png "Available Icons"
