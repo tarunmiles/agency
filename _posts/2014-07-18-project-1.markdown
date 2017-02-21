@@ -9,10 +9,7 @@ thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: April 2014
 category: Rstudio
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
-
-This template uses [Typicons][ty] web font, provided by [Fontello][fo] font bundling service. It allows you to quickly
+description: This template uses [Typicons][ty] web font, provided by [Fontello][fo] font bundling service. It allows you to quickly
 add nice icons into your pages by using css tags. 
 
 To add an icon somewhere in the template simply do:
@@ -22,6 +19,8 @@ To add an icon somewhere in the template simply do:
 {% endhighlight %}
 
 This will insert a home icon, just as the one seen in the sidebar. The available class names you can use are as follows:
+
+---
 
 ![Available Icons][icons]
 
@@ -34,5 +33,3 @@ These should work in all the browsers, all the way down to and including IE7, bu
 
 [icons]: /img/icons.png "Available Icons"
 
-
----
